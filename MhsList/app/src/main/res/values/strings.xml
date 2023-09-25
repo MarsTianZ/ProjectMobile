@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">MhsList</string>
+    <string-array name="arr_mhs">
+        <item>Gilang Arya </item>
+        <item>Gavin Daffa</item>
+        <item>Jaka Lesmana</item>
+        <item>Luthfi Krisn</item>
+        <item>Michael Chri</item>
+        <item>Stefanus Sil</item>
+        <item>Riyan Adyapu</item>
+        <item>M. Ilham Rid</item>
+        <item>Aziz Fakhuro</item>
+        <item>Marsa Kristi</item>
+        <item>Brian Mayrez</item>
+        <item>Muhammad Nau</item>
+        <item>Muhammad Ega</item>
+        <item>Muhammad Har</item>
+        <item>Ahmad Jazim </item>
+        <item>I Gusti Ngur</item>
+        <item>M. Mas\'ud As</item>
+        <item>Abigail Exce</item>
+        <item>Stanley Giov</item>
+        <item>Habib Fatkhu</item>
+        <item>Ananda Fauzi</item>
+        <item>Diva Putri Y</item>
+        <item>Raysita Syah</item>
+
+    </string-array>
+</resources>

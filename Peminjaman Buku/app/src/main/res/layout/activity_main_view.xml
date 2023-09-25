@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tema"
+    android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/tema_awal"
+            android:padding="10dp">
+
+            <EditText
+                android:id="@+id/searchBar"
+                android:layout_width="364dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/inputan"
+                android:hint="Search"
+                android:imeOptions="actionSearch"
+                android:inputType="text"
+                android:padding="16dp"
+                android:textColor="@color/black" />
+
+            <ImageButton
+                android:id="@+id/btnSearch"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:scaleType="fitCenter"
+                android:text="Search"
+                android:onClick="executeSearch"
+                android:background="@drawable/searchlogo"
+                android:src="@drawable/searchlogo">
+            </ImageButton>
+
+        </LinearLayout>
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textColor="@color/black"
+        android:layout_weight="1"
+        android:dividerHeight="10dp"
+        android:paddingTop="10dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/btnHistory"
+            android:background="@drawable/button_match"
+            android:gravity="center"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/history"
+            android:onClick="history" />
+
+    </RelativeLayout>
+
+</LinearLayout>

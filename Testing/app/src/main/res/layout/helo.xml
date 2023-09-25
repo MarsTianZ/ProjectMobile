@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ListView
+        android:id="@+id/lvtgs"
+        android:layout_width="match_parent"
+        android:layout_height="255dp"
+        />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Tambah Transaksi" />
+
+    <TextView
+        android:id="@+id/ID_TRANS2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Id Transaksi"
+        android:textColor="@color/design_default_color_background" />
+
+    <EditText
+        android:id="@+id/edit_trans"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/tgl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Tanggal Transaksi"
+        android:textColor="@color/design_default_color_background" />
+
+    <EditText
+        android:id="@+id/edit_tgl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/tvketerangan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Keterangan"
+        android:textColor="@color/design_default_color_background" />
+
+    <EditText
+        android:id="@+id/keterangan"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/tvdebet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="debit"
+        android:textColor= "@color/design_default_color_background" />
+
+    <EditText
+        android:id="@+id/eddebet"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="0" />
+
+    <TextView
+        android:id="@+id/tvkredit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="kredit"
+        android:textColor="@color/design_default_color_background" />
+
+    <EditText
+        android:id="@+id/edkredit"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="0" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="723dp"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/bttambah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="bttambah"
+            android:text="Tambah" />
+
+        <Button
+            android:id="@+id/btlaporan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="btlaporan"
+            android:text="Laporan" />
+    </LinearLayout>
+
+
+</LinearLayout>

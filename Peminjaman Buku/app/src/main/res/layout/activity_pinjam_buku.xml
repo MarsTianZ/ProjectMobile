@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tema"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="15dp"
+        android:background="@color/tema_awal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Form Peminjaman Buku"
+            android:textColor="@color/black"
+            android:textAppearance="@android:style/TextAppearance.Large"
+            android:textStyle="bold"
+            android:gravity="center"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="ID"
+                android:layout_marginRight="5dp"
+                android:gravity="center_vertical|center"
+                android:textAppearance="@android:style/TextAppearance.Medium" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:text="Nama Buku"
+                android:textAppearance="@android:style/TextAppearance.Medium" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp">
+
+            <EditText
+                android:id="@+id/idBuku"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:padding="16dp"
+                android:text="1"
+                android:background="@drawable/inputan"
+                android:gravity="center_vertical|center"
+                android:textAppearance="@android:style/TextAppearance.Medium" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text=":"/>
+
+            <EditText
+                android:id="@+id/judulBuku"
+                android:layout_width="0dp"
+                android:background="@drawable/inputan"
+                android:padding="16dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:hint="Nama Buku"
+                android:inputType="text" />
+
+        </LinearLayout>
+
+
+        <EditText
+            android:id="@+id/namaPeminjam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:hint="Nama Peminjam"
+            android:background="@drawable/inputan"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/alamatPeminjam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:background="@drawable/inputan"
+            android:padding="16dp"
+            android:hint="Alamat"
+            android:layout_marginBottom="16dp"
+            android:inputType="textPostalAddress" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/tglPinjam"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/inputan"
+                android:padding="16dp"
+                android:hint="Tanggal Pinjam"
+                android:textColor="@color/black"
+                android:inputType="date"
+                android:focusable="false"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="|"
+                android:layout_margin="5dp"
+                android:textColor="@color/black"
+                android:textAppearance="@android:style/TextAppearance.Medium"
+                android:textSize="30dp"/>
+
+            <EditText
+                android:id="@+id/tglKembali"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Tanggal Kembalian"
+                android:textColor="@color/black"
+                android:background="@drawable/inputan"
+                android:padding="16dp"
+                android:inputType="date"
+                android:focusable="false"/>
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/btnPinjam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_match"
+            android:text="Pinjam"
+            android:layout_marginTop="16dp" />
+    </LinearLayout>
+
+</LinearLayout>

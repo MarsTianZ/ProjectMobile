@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/tema_awal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nota Peminjaman"
+            android:padding="15dp"
+            android:textAppearance="@android:style/TextAppearance.Large"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="@color/black"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/tema"
+        android:padding="16dp">
+
+
+        <TextView
+            android:text="Kode Transaksi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textAppearance="@android:style/TextAppearance.Medium" />
+        <TextView
+            android:id="@+id/idPeminjaman"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:textAppearance="@android:style/TextAppearance.Medium"
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:text="ID Buku"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textAppearance="@android:style/TextAppearance.Medium" />
+        <TextView
+            android:id="@+id/idBuku"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:textAppearance="@android:style/TextAppearance.Medium"
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:text="Judul Buku"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textAppearance="@android:style/TextAppearance.Medium" />
+        <TextView
+            android:id="@+id/judulBuku"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:textAppearance="@android:style/TextAppearance.Medium"
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:text="Nama Peminjam Buku"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textAppearance="@android:style/TextAppearance.Medium" />
+        <TextView
+            android:id="@+id/namaPeminjam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:textAppearance="@android:style/TextAppearance.Medium"
+            android:textSize="16sp" />
+
+
+        <TextView
+            android:text="Alamat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textAppearance="@android:style/TextAppearance.Medium" />
+        <TextView
+            android:id="@+id/alamatPeminjam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:textAppearance="@android:style/TextAppearance.Medium"
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:text="Tanggal Peminjaman Buku"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textAppearance="@android:style/TextAppearance.Medium" />
+        <TextView
+            android:id="@+id/tglPinjam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:textAppearance="@android:style/TextAppearance.Medium"
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:text="Tanggal Pengembalian Buku"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textAppearance="@android:style/TextAppearance.Medium" />
+        <TextView
+            android:id="@+id/tglKembali"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:textAppearance="@android:style/TextAppearance.Medium"
+            android:textSize="16dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Konfirmasi"
+            android:background="@drawable/button_match"
+            android:id="@+id/btnKonfirmasi"
+            android:onClick="konfirmasi"/>
+    </LinearLayout>
+</LinearLayout>

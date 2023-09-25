@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0FAAB8"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/Tview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="35dp"
+        android:height="300px"
+        android:background="@color/white"
+        android:padding="10px"
+        android:text="0"
+        android:textSize="200px" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_esteh"
+            android:layout_width="180dp"
+            android:layout_height="60dp"
+            android:layout_marginHorizontal="15dp"
+            android:text="Es Teh"
+            android:textSize="16sp"
+            android:onClick="esteh"
+            android:background="@drawable/rounded_corner"
+            android:textAllCaps="false"/>
+
+
+        <Button
+            android:id="@+id/btn_esjeruk"
+            android:layout_width="180dp"
+            android:layout_height="60dp"
+            android:text="Es Jeruk"
+            android:textSize="16sp"
+            android:onClick="esjeruk"
+            android:background="@drawable/rounded_corner"
+            android:textAllCaps="false"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_nasiPecel"
+            android:layout_width="180dp"
+            android:layout_height="60dp"
+            android:layout_marginHorizontal="15dp"
+            android:background="@drawable/rounded_corner"
+            android:text="Nasi Pecel"
+            android:textSize="16sp"
+            android:onClick="nasipecel"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/btn_nasiRawon"
+            android:layout_width="180dp"
+            android:layout_height="60dp"
+            android:text="Nasi Rawon"
+            android:textSize="16sp"
+            android:onClick="nasirawon"
+            android:background="@drawable/rounded_corner"
+            android:textAllCaps="false"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_bayar"
+            android:layout_width="180dp"
+            android:layout_height="60dp"
+            android:layout_marginHorizontal="15dp"
+            android:text="Bayar"
+            android:textSize="16sp"
+            android:onClick="bayar"
+            android:background="@drawable/rounded_corner"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/btn_batal"
+            android:layout_width="180dp"
+            android:layout_height="60dp"
+            android:text="Batal"
+            android:onClick="batal"
+            android:textSize="16sp"
+            android:background="@drawable/rounded_corner"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textViewspace3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn_aboutme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="About Me"
+            android:onClick="aboutme"
+            android:layout_marginHorizontal="15dp"
+            android:textSize="16sp"
+            android:layout_gravity="center"
+            android:background="@drawable/rounded_corner"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+
+</LinearLayout>
